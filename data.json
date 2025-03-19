@@ -1,0 +1,17 @@
+[
+  {
+    "image": "img/banner1.jpg",
+    "text": "Zdravim vas",
+    "URL": "index.php"
+  },
+  {
+    "image": "img/banner2.jpg",
+    "text": "Caute",
+    "URL": "qna.php"
+  },
+  {
+    "image": "img/banner3.jpg",
+    "text": "Ide to",
+    "URL": "portfolio.html"
+  }
+]
