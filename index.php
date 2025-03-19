@@ -1,3 +1,8 @@
+<?php
+$jsonData = file_get_contents("data.json");
+
+$banners = json_decode($jsonData, true);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,29 +36,20 @@
 
 <main>
     <section class="slides-container">
-        <div class="slide fade">
-            <img src="img/banner1.jpg">
-            <div class="slide-text">
-                Prvý nadpis
-            </div>
-        </div>
+        <?php foreach ($banners as $index => $banner): ?>
+            <div class="slide fade">
+                <a href="<?= htmlspecialchars($banner['URL']) ?>">
+                <img src="<?= htmlspecialchars($banner['image']) ?>">
+                </a>
+                <div class="slide-text"><?= htmlspecialchars($banner['text']) ?></div>
 
-        <div class="slide fade">
-            <img src="img/banner2.jpg">
-            <div class="slide-text">
-                Druhý nadpis
             </div>
-        </div>
+        <?php endforeach; ?>
 
-        <div class="slide fade">
-            <img src="img/banner3.jpg">
-            <div class="slide-text">
-                Tretí nadpis
-            </div>
-        </div>
-
-        <a id="prev" class="prev">❮</a>
-        <a id="next" class="next">❯</a>
+        <a id="prev" class="prev" onclick="plusSlides(-1)">❮</a>
+        <a id="next" class="next" onclick="plusSlides(1)">❯</a>
+    </section>
+</main>
 
     </section>
     <section class="container">
@@ -95,7 +91,9 @@
         </div>
     </section>
 </main>
-
+<?php
+include_once "skuska.php";
+?>
 <footer class="container bg-dark text-white">
     <div class="row">
         <div class="col-25">
@@ -103,6 +101,9 @@
             <p>Laboris duis ut est fugiat et reprehenderit magna labore aute.</p>
             <p>Laboris duis ut est fugiat et reprehenderit magna labore aute.</p>
             <p>Laboris duis ut est fugiat et reprehenderit magna labore aute.</p>
+            <?php
+            vypisText();
+            ?>
         </div>
         <div class="col-25 text-left">
             <h4>Kontaktujte nás</h4>

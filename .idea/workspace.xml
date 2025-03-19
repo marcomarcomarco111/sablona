@@ -6,13 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b95efbdc-690e-4828-98c0-dfc1937133a1" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../NOVY/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/otazky.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skuska.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qna.html" beforeDir="false" afterPath="$PROJECT_DIR$/qna.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/thankyou.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qna.php" beforeDir="false" afterPath="$PROJECT_DIR$/qna.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +20,17 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php" />
@@ -35,27 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.index.php.executor": "Run",
-    "JavaScript Debug.otazky.php.executor": "Run",
-    "JavaScript Debug.qna.php.executor": "Run",
-    "PHP Script.index.php.executor": "Run",
-    "PHP Script.qna.php.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/pridanie-pozdravu",
-    "last_opened_file_path": "/Applications/XAMPP/xamppfiles/htdocs/sablona",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.otazky.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.qna.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.qna.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/qna-otazky-odpovede&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Applications/XAMPP/xamppfiles/htdocs/sablona&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,6 +80,12 @@
       <option name="presentableId" value="Default" />
       <updated>1741181446203</updated>
       <workItem from="1741181447269" duration="1160000" />
+      <workItem from="1741185208565" duration="64000" />
+      <workItem from="1741315490115" duration="123000" />
+      <workItem from="1741388475723" duration="2258000" />
+      <workItem from="1741990067709" duration="1007000" />
+      <workItem from="1742405860044" duration="2899000" />
+      <workItem from="1742410950633" duration="1046000" />
     </task>
     <servers />
   </component>
