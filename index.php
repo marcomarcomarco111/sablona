@@ -24,7 +24,7 @@ $banners = json_decode($jsonData, true);
     <nav class="main-nav">
         <ul class="main-menu" id="main-menu">
             <li><a href="index.html">Domov</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="portfolio.php">Portfólio</a></li>
             <li><a href="qna.php">Q&A</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>

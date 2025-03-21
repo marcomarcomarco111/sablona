@@ -6,11 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b95efbdc-690e-4828-98c0-dfc1937133a1" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../NOVY/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skuska.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qna.php" beforeDir="false" afterPath="$PROJECT_DIR$/qna.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/thankyou.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
     &quot;PHP Script.qna.php.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/qna-otazky-odpovede&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/pridanie-jsonsuboru-bannerov-nadpisov-url&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Applications/XAMPP/xamppfiles/htdocs/sablona&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -85,7 +88,8 @@
       <workItem from="1741388475723" duration="2258000" />
       <workItem from="1741990067709" duration="1007000" />
       <workItem from="1742405860044" duration="2899000" />
-      <workItem from="1742410950633" duration="1046000" />
+      <workItem from="1742410950633" duration="2142000" />
+      <workItem from="1742593550681" duration="4979000" />
     </task>
     <servers />
   </component>
