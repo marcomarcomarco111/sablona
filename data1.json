@@ -1,0 +1,42 @@
+{
+  "Obrazok1": {
+    "image": "img/portfolio1.jpg",
+    "text": "Zdravim vas",
+    "URL": "index.php"
+  },
+  "Obrazok2": {
+    "image": "img/portfolio2.jpg",
+    "text": "Ahoj",
+    "URL": "index.php"
+  },
+  "Obrazok3": {
+    "image": "img/portfolio3.jpg",
+    "text": "Cau",
+    "URL": "index.php"
+  },
+  "Obrazok4": {
+    "image": "img/portfolio4.jpg",
+    "text": "Ahoj",
+    "URL": "index.php"
+  },
+  "Obrazok5": {
+    "image": "img/portfolio5.jpg",
+    "text": "Ahoj",
+    "URL": "index.php"
+  },
+  "Obrazok6": {
+    "image": "img/portfolio6.jpg",
+    "text": "Ahoj",
+    "URL": "index.php"
+  },
+  "Obrazok7": {
+    "image": "img/portfolio7.jpg",
+    "text": "Ahoj",
+    "URL": "index.php"
+  },
+  "Obrazok8": {
+    "image": "img/portfolio8.jpg",
+    "text": "Ahoj",
+    "URL": "index.php"
+  }
+}
