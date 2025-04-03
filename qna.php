@@ -1,3 +1,10 @@
+
+<?php
+require_once('classes/spracovanieQna.php');
+use otazkyodpovede\QnA;
+$qnaObj = new QnA();
+$otazkyOdpovede = $qnaObj->getAllQnA();
+?>
 <!DOCTYPE html>
 <html lang="sk">
 <head>
@@ -20,7 +27,7 @@
       <li><a href="index.php">Domov</a></li>
       <li><a href="portfolio.php">Portfólio</a></li>
       <li><a href="qna.php">Q&A</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="kontakt.php">Kontakt</a></li>
     </ul>
     <a class="hamburger" id="hamburger">
       <i class="fa fa-bars"></i>
@@ -41,20 +48,20 @@
       </div>
     </section>
       <section class="container">
-          <?php include "otazky.php";
-          ?>
-          <?php for ($i = 0; $i < count($otazky); $i++) {
-              ?>
+          <?php if (!empty($otazkyOdpovede)): ?>
+          <?php foreach ($otazkyOdpovede as $qna): ?>
               <div class="accordion">
                   <div class="question">
-                      <?php echo $otazky[$i]; ?>
+                      <?php echo htmlspecialchars($qna['otazky']); ?>
                   </div>
                   <div class="answer">
-                      <?php echo $odpovede[$i];
-                      ?>
+                       <?php echo htmlspecialchars($qna['odpovede']); ?>
                   </div>
               </div>
-          <?php } ?>
+              <?php endforeach; ?>
+          <?php else: ?>
+              <p>Žiadne otázky a odpovede neboli nájdené.</p>
+          <?php endif; ?>
     </section>
     </section>
   </div>

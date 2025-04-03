@@ -6,12 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b95efbdc-690e-4828-98c0-dfc1937133a1" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../NOVY/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/spracovanieQna.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/spracovanieFormulara.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otazky.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qna.php" beforeDir="false" afterPath="$PROJECT_DIR$/qna.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/thankyou.html" afterDir="false" />
     </list>
@@ -50,9 +52,15 @@
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.otazky.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.portfolio.php.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.qna.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.spracovanieFormulara.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.spracovanieQna.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.thankyou.html.executor&quot;: &quot;Run&quot;,
     &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP Script.qna.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.spracovanieFormulara.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.spracovanieQna.php.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;feature/pridanie-jsonsuboru-bannerov-nadpisov-url&quot;,
@@ -66,6 +74,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +102,12 @@
       <workItem from="1741990067709" duration="1007000" />
       <workItem from="1742405860044" duration="2899000" />
       <workItem from="1742410950633" duration="2142000" />
-      <workItem from="1742593550681" duration="4979000" />
+      <workItem from="1742593550681" duration="5268000" />
+      <workItem from="1742918852379" duration="5000" />
+      <workItem from="1742951862146" duration="14000" />
+      <workItem from="1743652949064" duration="6569000" />
+      <workItem from="1743660712212" duration="6402000" />
+      <workItem from="1743729590166" duration="1427000" />
     </task>
     <servers />
   </component>
